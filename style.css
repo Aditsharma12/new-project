@@ -1,0 +1,44 @@
+body{
+    background-color: darkmagenta;
+    background-image: 
+    url("https://images.freecreatives.com/wp-content/uploads/2016/04/Awesome-Website-Background1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+}
+ul{
+    color:rgb(154, 253, 255)
+}
+ul{
+    background-coloR: rgb(174, 31, 112)
+}
+h1{
+    background-color: rgb(109, 213, 57);
+    color:brown
+}
+hr{
+    color: rgb(111, 63, 4);
+}
+div{
+    justify-content: space-around;
+}
+input{
+    width:30%;
+    margin: 8px;
+    padding: 12px;
+    background-color: aquamarine;
+}
+p{
+    color: rgb(43, 0, 94);
+}
+select{
+    width:30%;
+    margin: 8px;
+    padding: 12px;
+    background-color: aquamarine; 
+}
+button{
+    background-color: rgb(12, 137, 96);
+}
+p#som{
+    color: aliceblue;
+}

@@ -1,0 +1,24 @@
+body{
+    background-color: darkmagenta;
+    background-image: 
+    url("https://images.freecreatives.com/wp-content/uploads/2016/04/Awesome-Website-Background1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+}
+pre{
+    color: rgb(154, 253, 255);
+    background-color:  rgb(174, 31, 112);
+    text-decoration: wavy;
+    width:100% ;
+}
+h1{
+    background-color: rgb(109, 213, 57);
+    color:brown;
+    text-align: center;
+    width:30%;
+}
+h2{
+    background-color: rgb(14, 176, 125);
+    width:20%;
+    color:rgb(54, 62, 215)
+}
