@@ -12,13 +12,13 @@ b{
     width:100% ;
 }
 h1{
-    background-color: rgb(109, 213, 57);
+    /*background-color: rgb(109, 213, 57);*/
     color:brown;
     text-align: center;
     width:30%;
 }
 h2{
-    background-color: rgb(14, 176, 125);
+    /*background-color: rgb(14, 176, 125);*/
     width:20%;
     color:rgb(54, 62, 215)
 }
