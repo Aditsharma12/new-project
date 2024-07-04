@@ -5,7 +5,7 @@ body{
     background-attachment: fixed;
     background-position: center;
 }
-pre{
+b{
     color: rgb(154, 253, 255);
     background-color:  rgb(174, 31, 112);
     text-decoration: wavy;
