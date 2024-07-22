@@ -1,52 +1,95 @@
-body{
+body {
     background-color: darkmagenta;
-    background-image: 
-    url("https://images.freecreatives.com/wp-content/uploads/2016/04/Awesome-Website-Background1.jpg");
+    background-image: url("https://images.freecreatives.com/wp-content/uploads/2016/04/Awesome-Website-Background1.jpg");
     background-attachment: fixed;
     background-position: center;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
-ul{
-    color:rgb(154, 253, 255)
+
+.glass-container {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 20px;
+    max-width: 600px;
+    width: 90%;
+    text-align: center;
+    margin: 20px;
 }
-ul{
-    background-coloR: rgb(174, 31, 112)
+
+h1 {
+    background-color: rgba(109, 213, 57, 0.7);
+    color: brown;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+    display: inline-block;
+    backdrop-filter: blur(10px);
 }
-h1{
-    background-color: rgb(109, 213, 57);
-    color:brown
+
+ul {
+    list-style-type: none;
+    padding: 0;
 }
-hr{
-    color: rgb(111, 63, 4);
+
+ul li {
+    background-color: rgba(174, 31, 112, 0.7);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    color: rgb(154, 253, 255);
 }
-div{
-    justify-content: space-around;
-}
-input{
-    width:30%;
-    margin: 8px;
-    padding: 12px;
-    background-color: aquamarine;
-}
-p{
+
+p {
     color: rgb(43, 0, 94);
 }
-select{
-    width:30%;
-    margin: 8px;
-    padding: 12px;
-    background-color: aquamarine; 
+
+hr {
+    color: rgb(111, 63, 4);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin: 20px;
 }
-button{
-    background-color: rgb(12, 137, 96);
+
+button {
+    background-color: rgba(12, 137, 96, 0.7);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    backdrop-filter: blur(10px);
 }
-p#som{
-    color: aliceblue;
+
+button:hover {
+    background-color: rgba(12, 137, 96, 0.9);
 }
-p#date1{
-background-color: blanchedalmond;
-color: blueviolet;
+
+p#name1, p#date1 {
+    background-color: rgba(255, 255, 255, 0.7);
+    color: blueviolet;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10px;
+    backdrop-filter: blur(10px);
 }
-p#name1{
-background-color: antiquewhite;
-color: blueviolet;
+
+table {
+    margin: 20px auto;
+}
+
+th img {
+    border-radius: 10px;
 }
