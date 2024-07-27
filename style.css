@@ -1,102 +1,52 @@
-body {
-    background-color: #B0C4DE; /* Lightened background color */
-    background-image: url("https://images.freecreatives.com/wp-content/uploads/2016/04/Awesome-Website-Background1.jpg");
+body{
+    background-color: darkmagenta;
+    background-image: 
+    url("https://images.freecreatives.com/wp-content/uploads/2016/04/Awesome-Website-Background1.jpg");
     background-attachment: fixed;
     background-position: center;
-    background-size: cover;
-    font-family: Arial, sans-serif;
-    color: #ffffff;
-    margin: 0;
-    padding: 20px;
-    text-align: center;
 }
-
-ul {
-    color: #4B0082; /* Indigo color for better contrast */
-    background-color: #D8BFD8; /* Thistle color for a softer look */
-    padding: 10px;
-    list-style-type: none;
-    margin: 20px auto;
-    width: 90%;
-    max-width: 800px;
-    border-radius: 5px;
+ul{
+    color:rgb(154, 253, 255)
 }
-
-h1 {
-    background-color: #ADD8E6; /* Light blue background color */
-    color: #8B4513; /* Dark brown */
-    padding: 10px;
-    border-radius: 5px;
-    width: 80%;
-    max-width: 300px;
-    margin: 20px auto;
+ul{
+    background-coloR: rgb(174, 31, 112)
 }
-
-hr {
-    color: #6F3F04; /* Dark brown */
-    margin: 20px auto;
-    width: 90%;
-    max-width: 800px;
+h1{
+    background-color: rgb(109, 213, 57);
+    color:brown
 }
-
-div {
-    display: flex;
-    flex-wrap: wrap;
+hr{
+    color: rgb(111, 63, 4);
+}
+div{
     justify-content: space-around;
-    margin: 20px 0;
 }
-
-input, select {
-    width: 90%;
-    max-width: 300px;
+input{
+    width:30%;
     margin: 8px;
     padding: 12px;
-    background-color: #7FFFD4; /* Aquamarine */
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
+    background-color: aquamarine;
 }
-
-p {
-    color: #2B005E; /* Dark purple */
-    margin: 10px 0;
+p{
+    color: rgb(43, 0, 94);
 }
-
-button {
-    background-color: #0C8960; /* Teal */
-    color: #fff;
-    border: none;
-    padding: 12px 20px;
+select{
+    width:30%;
     margin: 8px;
-    cursor: pointer;
-    border-radius: 5px;
-    font-size: 16px;
+    padding: 12px;
+    background-color: aquamarine; 
 }
-
-p#som {
-    color: #F0F8FF; /* Alice blue */
+button{
+    background-color: rgb(12, 137, 96);
 }
-
-p#date1 {
-    background-color: #FFEBCD; /* Blanched almond */
-    color: #8A2BE2; /* Blue violet */
-    padding: 10px;
-    border-radius: 5px;
-    margin: 10px 0;
+p#som{
+    color: aliceblue;
 }
-
-p#name1 {
-    background-color: #FAEBD7; /* Antique white */
-    color: #8A2BE2; /* Blue violet */
-    padding: 10px;
-    border-radius: 5px;
-    margin: 10px 0;
+p#date1{
+background-color: blanchedalmond;
+color: blueviolet;
 }
-
-@media (max-width: 600px) {
-    ul, h1, hr, div, input, select, button, p#date1, p#name1 {
-        width: 100%;
-        margin: 10px 0;
-        padding: 10px;
-    }
+p#name1{
+background-color: antiquewhite;
+color: blueviolet;
 }
