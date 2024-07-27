@@ -1,24 +1,78 @@
-body{
-    background-color: darkmagenta;
-    background-image: 
-    url("https://images.freecreatives.com/wp-content/uploads/2016/04/Awesome-Website-Background1.jpg");
+body {
+    background-color: #8A2BE2; /* Adjusted to a lighter shade */
+    background-image: url("https://images.freecreatives.com/wp-content/uploads/2016/04/Awesome-Website-Background1.jpg");
     background-attachment: fixed;
     background-position: center;
-}
-b{
-    color: rgb(154, 253, 255);
-    background-color:  rgb(174, 31, 112);
-    text-decoration: wavy;
-    width:100% ;
-}
-h1{
-    /*background-color: rgb(109, 213, 57);*/
-    color:brown;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    margin: 0;
+    padding: 20px;
     text-align: center;
-    width:30%;
 }
-h2{
-    /*background-color: rgb(14, 176, 125);*/
-    width:20%;
-    color:rgb(54, 62, 215)
+
+b {
+    color: #3C3F41; /* Changed to a dark gray for better contrast */
+    background-color: #E0A3B9; /* Lighter background color */
+    text-decoration: none; /* Removed wavy underline */
+    display: block;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 5px;
+    width: 90%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    color: #8B4513; /* Dark brown */
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #FFDAB9; /* Light peach background color */
+}
+
+h2 {
+    width: 80%;
+    max-width: 250px;
+    color: #363ED7; /* Kept original color */
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 5px;
+    background: #ADD8E6; /* Light blue background color */
+}
+
+table {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th {
+    width: 50%;
+    padding: 10px;
+}
+
+img {
+    width: 20%;
+    height: auto;
+    border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+    h1, h2, b {
+        width: 100%;
+    }
+
+    th {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+    }
 }
